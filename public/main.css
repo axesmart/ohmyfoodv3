@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0 5px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 1400px;
+    margin: O auto;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+header h1 {
+  font-size: 35px;
+  font-family: "Shrikhand", serif;
+}
+
+footer {
+  display: flex;
+  border: 5px solid black;
+  color: black;
+  font-size: 10px;
+  font-family: "Shrikhand", serif;
+}
+
+a {
+  color: black;
+  background-color: grey;
+}
+
+#searchbar {
+  background-color: beige;
+  color: red;
+}
+
+.fa-1 {
+  color: white;
+}
+
+.fa-2 {
+  color: white;
+}
+
+.fa-3 {
+  color: white;
+}
+
+.fa-circle {
+  color: purple;
+}
+
+.fa-mobile-screen-button {
+  color: lightgray;
+}
+
+.choice {
+  border: 1px solid lightgray;
+  width: 80px;
+}
+
+.button {
+  color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.cardsofmeals {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.firstmeal {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

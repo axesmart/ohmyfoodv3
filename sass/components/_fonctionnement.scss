@@ -1,0 +1,28 @@
+@use '../utils/' as *;
+
+.fa-1 {
+    color:white;
+}
+.fa-2{
+    color:white;
+}
+.fa-3{
+    color:white;
+}
+.fa-circle{
+    color:purple;
+}
+.fa-mobile-screen-button{
+    color:lightgray;
+
+}
+.choice{
+border:1px solid lightgray;
+width:80px;
+}
+.button{
+    color:pink;
+    display: flex;
+    justify-content: center;
+    
+}

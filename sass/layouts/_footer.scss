@@ -1,0 +1,14 @@
+@use '../utils/' as *;
+footer{
+    display:flex;
+    border: 5px solid black;
+    color: black;
+    font-size: 10px;
+    font-family: "Shrikhand", serif;
+    
+}
+a{
+    color:black;
+    background-color: grey;
+
+}
