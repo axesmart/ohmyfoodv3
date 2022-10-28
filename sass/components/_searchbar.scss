@@ -1,5 +1,10 @@
-@use '../utils/' as *;
+@use '../abstracts/' as *;
 #searchbar{
-    background-color: beige;
-    color: red;
+    background-color: $fourth;
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    i{
+        padding-right: 15px;
+    }
 }

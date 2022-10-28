@@ -25,24 +25,39 @@ header {
 header h1 {
   font-size: 35px;
   font-family: "Shrikhand", serif;
+  text-align: center;
+}
+
+h2 {
+  color: white;
 }
 
 footer {
   display: flex;
-  border: 5px solid black;
-  color: black;
+  background: #353535;
   font-size: 10px;
   font-family: "Shrikhand", serif;
 }
 
 a {
-  color: black;
-  background-color: grey;
+  color: white;
+}
+
+main {
+  background: #99E2D0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #searchbar {
-  background-color: beige;
-  color: red;
+  background-color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+#searchbar i {
+  padding-right: 15px;
 }
 
 .fa-1 {
@@ -50,7 +65,7 @@ a {
 }
 
 .fa-2 {
-  color: white;
+  color: #F2F2F2;
 }
 
 .fa-3 {
@@ -84,6 +99,10 @@ a {
 .firstmeal {
   border: 1px solid white;
   border-radius: 5px;
+}
+
+section {
+  background-color: lightgray;
 }
 
 /*# sourceMappingURL=main.css.map */
